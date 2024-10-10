@@ -1,1 +1,9 @@
-My homework for the machine learning course given by Andrei Nartsev at the Mathematics Department of the Higher School of Economics in 2024. 
+My homework for the machine learning course given by Andrei Nartsev at the Mathematics Department of the Higher School of Economics in 2024. By topic:
+
+*   **Homework 1** was focused on **kNN, linear models and feature engineering**. I used the libraries `sklearn` (for scaling, exploration, and feature engineering), `mlxtend` (for visualizing the solving surface of classifiers), and `statsmodels`.api (for more informative inferences about regression models). In the homework assignment, `knn and logistic regression` were `independently` (from scratch) implemented, data were preprocessed, several classifiers were trained and their comparative differences were analyzed. **The maximum score was received for the assignment.**
+
+*  **Homework 2** was devoted to a more detailed analysis of **classifiers**: we visualized **separating surfaces** for Logit and SVM, calibrated probabilities using `CalibratedClassifierCV`, `Platt regression`, `Isotonic regression`. As part of the text processing, *manual* **lemmatization and tokenization** were performed, and various **vectorizers** were used. By the standards of manual methods, good metrics were obtained (f-1 about 74 percent)  **The maximum score was received for the assignment.**
+
+*  **Homework 4** was focused on different types of **boosting** to solve the regression problem. After preliminary data processing, `CatBoost`, `XGBoost`, `LightGBM` were implemented. A `gridsearch` was implemented to find the optimal hyperparameters, and various ways of coding categorical data were enumerated and additional feature engineering was done to improve the quality of the models. The methods were compared among themselves and with the baseline model.
+
+*  Homework 5 focused on different ways of **clustering**. The `knn`, `DBSCAN`, `AgglomerativeClustering` methods were compared and different clustering quality metrics were used. The DBSCAN method was fully implemented **manually**. 
